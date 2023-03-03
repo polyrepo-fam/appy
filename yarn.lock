@@ -495,11 +495,6 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.17.tgz#c5a1a4bfe1b57f0c3e61b29883525c6da3e5c091"
   integrity sha512-y+EHuSchhL7FjHgvQL/0fnnFmO4T1bhvWANX6gcnqTjtnKWbTvUMCpGnv2+t+31d7RzyEAYAd4u2fnIhHL6N/Q==
 
-"@jonbri/libby-ui@*":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@jonbri/libby-ui/-/libby-ui-1.2.3.tgz#e402245d9384ebc4fff7236e4a2edab284cc8f4a"
-  integrity sha512-DxlrgP7V1w3nn/BrAP1dFGS8PFyOPXSfVn3eN4uwqhFFq8Dm4KKJcfsDgr5Uu3aHB21hkLBWVwJpGs6TuCUsmw==
-
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -568,6 +563,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@polyrepo-fam/libby-ui@*":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@polyrepo-fam/libby-ui/-/libby-ui-1.0.0.tgz#091131cbbc72a954621207dad42171ba355da813"
+  integrity sha512-jM+f2Q91RXcoYZVlNeazeq0z2N6drng6wltktY7Lyb6IvEqx8cEUslI3bZfwSmuWYpP3dGkjgXbLVAeKCeOhXQ==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
