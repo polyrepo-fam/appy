@@ -14,7 +14,7 @@
     "format:package": "sort-package-json",
     "lint": "yarn format:check && yarn eslint",
     "preview": "vite preview",
-    "update": "yarn upgrade @jonbri/libby-ui"
+    "update": "yarn upgrade @polyrepo-fam/libby-ui"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "@jonbri/libby-ui": "*",
+    "@polyrepo-fam/libby-ui": "*",
     "@types/node": "17.0.41",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
