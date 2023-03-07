@@ -1,0 +1,35 @@
+{
+  "name": "appy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn lint && next build && next export",
+    "dev": "next dev",
+    "format": "yarn format:code && yarn format:package",
+    "format:check": "yarn format:check:code && yarn format:check:package",
+    "format:check:code": "prettier --check --ignore-path .prettierignore \"./**/*.{ts,tsx,json,js,jsx,md}\"",
+    "format:check:package": "sort-package-json --check",
+    "format:code": "prettier --write --ignore-path .prettierignore \"./**/*.{ts,tsx,json,js,jsx,md}\"",
+    "format:package": "sort-package-json",
+    "lint": "yarn format:check && next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@polyrepo-fam/libby-ui": "*",
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.6",
+    "eslint": "^8.35.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-next": "^0.0.0",
+    "prettier": "2.2.1",
+    "sort-package-json": "^2.4.1",
+    "typescript": "4.7.4"
+  }
+}
